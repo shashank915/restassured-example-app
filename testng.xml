@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite name="All Test Suite">
+        <test verbose="2" preserve-order="true" name="/home/frost-5/Desktop/projects/reastassuredexampleapp">
+            <classes>
+                <class name="com.example.RummyCircleSampleApiTest">
+                    <methods>
+                        <include name="sampleJoinTest"/>
+                    </methods>
+                </class>
+<!--                <class name="com.example.SampleTest">-->
+<!--                    <methods>-->
+<!--                        <include name="sample_get_Test"/>-->
+<!--                        <include name="sample_post_Test"/>-->
+<!--                        <include name="sample_put_request"/>-->
+<!--                        <include name="sample_delete_test"/>-->
+<!--                    </methods>-->
+<!--            </class>-->
+            </classes>
+        </test>
+</suite>
